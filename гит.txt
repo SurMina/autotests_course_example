@@ -1,0 +1,17 @@
+2я часть ключа: id_ed25519
+The following SSH key was added to your account:
+
+id_ed25519
+
+SHA256:X77HSKsplsLY8JCmyUF0+AV+vLRpm8iGs6gGVz3+Vek
+
+----------------------------------------
+ms.surmina@tensor.ru
+C:\Users\79619/.ssh/id_rsa
+SHA256:wUjoFR9jAKp1o0pxOKihmccQUarqKtjb4CltSbvbdGs 79619@LAPTOP-BDFEPE32
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJEr96RBuF/J1PT1hvByiZZl2eHLSIqn/QRvCN4Jr4Rw+lrTOO6vLkc+FSM7l1aF6QEs+eewdx4MgJPi31BcgePh13PuWXYplJ+LBmR8xWxZjYFpBC7m8Kcswu69SJ34cVEYxJETS4TscNdd4wUuoWIibujjlYteunkCLd7AUz2fBjVsI/fTerG5USImaxx9fzo+JTa4HIDCeILSM4tQCo8nphMuRWeX6GgOi+rRNrcmJ+BbCN6NOzi7vhQAHy+VVZ8xFDEdaYVsxgZaPhFaFJSiWiId21lz66HVyKRRhSZO/SqndSImGUGih6oWqf2gmWCUoNx8mpUsEhcMfzmySck9W+exl8VKa+2reU9FPHpMBDB7TOcZ9ku6ASGsvygcCX4U5RbwXYHkNqKfsWxV8tF2qdkJqNl6fgkiu7RVTOviKUhRW4GW9qFvLPffX0U2oAK6kqiXxpcq7hzHGOrn5lNQY/Y4jB4ea/QbFo8b9snAL17nRTR3H9gQpTQIeT090= 79619@LAPTOP-BDFEPE32
+
+id_rsa
+SHA256:wUjoFR9jAKp1o0pxOKihmccQUarqKtjb4CltSbvbdGs
+
