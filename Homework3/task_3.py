@@ -23,18 +23,18 @@ def everything_for_your_cat(cats_data):
     d = {}
     for i in cats_data:
         temp = i[0] + ', ' + str(i[1])
-        #print(temp)
+        ##print(temp)
         d.setdefault(i[2:], []).append(temp)
-        # key = f'{name} {surname}:'
+        ## key = f'{name} {surname}:'
         # d.setdefault(key, []).append(f'{nick_cat}, {age_cat}')
     print(d)
     our_str = []
     for k, v in d.items():
-        #temp2 = ''
+        ##temp2 = ''
         temp2 = ' '.join(k) + ':', '; '.join(v)+';'
-        #print('temp2',temp2)
+        ##print('temp2',temp2)
         our_str.append(temp2)
-        #print(' '.join(k) + ':', '; '.join(v)+';')
+        ##print(' '.join(k) + ':', '; '.join(v)+';')
     return our_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

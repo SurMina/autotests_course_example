@@ -13,14 +13,10 @@ def repeats(our_str):
     for i in our_str:
         if i in bukv:
             nov_str = nov_str + f'{i}_{bukv[i]+1}'
-            #print(f'{i}_{bukv[i]+1}', end='')
         else:
             nov_str = nov_str + f'{i}_1'
-            #print(f'{i}_1', end='')
         bukv[i] = bukv.get(i, 0) + 1
-    # print('')
-    # print('bukv', bukv)
-    # print('nov_str',nov_str)
+
     return nov_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
