@@ -5,7 +5,6 @@
 # Например (Ввод --> Вывод):
 # 'letter' --> l_1e_1t_1t_2e_2_r_1
 
-
 def repeats(our_str):
     # Здесь нужно написать код
     bukv = {}
@@ -16,7 +15,6 @@ def repeats(our_str):
         else:
             nov_str = nov_str + f'{i}_1'
         bukv[i] = bukv.get(i, 0) + 1
-
     return nov_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

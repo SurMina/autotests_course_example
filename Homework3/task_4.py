@@ -12,6 +12,7 @@
 # Например (Ввод --> Вывод):
 # курс --> 6 (к=2, у=2, р=1, с=1)
 
+
 def scrabble(word):
     # Здесь нужно написать код
     bals = {1: 'АВЕЁИНОРСТ',
@@ -25,7 +26,6 @@ def scrabble(word):
     text = word.upper()
     points = sum([k for i in text for k, v in bals.items() if i in v])
     return points
-
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
