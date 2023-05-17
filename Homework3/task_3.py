@@ -19,21 +19,15 @@
 
 def everything_for_your_cat(cats_data):
     # Здесь нужно написать код
-    d = {}
-    for i in cats_data:
-        temp = i[0] + ', ' + str(i[1])
-        ##print(temp)
-        d.setdefault(i[2:], []).append(temp)
-        ## key = f'{name} {surname}:'
-        # d.setdefault(key, []).append(f'{nick_cat}, {age_cat}')
-    print(d)
-    our_str = []
+    d = {}  ##словарь хозяев
+    for nick_cat,age_cat,name,surname in cats_data:
+        key = f'{name} {surname}'
+        d.setdefault(key, []).append(f'{nick_cat}, {age_cat}')
+    our_str = ''''''
     for k, v in d.items():
-        ##temp2 = ''
-        temp2 = ' '.join(k) + ':', '; '.join(v)+';'
-        ##print('temp2',temp2)
-        our_str.append(temp2)
-        ##print(' '.join(k) + ':', '; '.join(v)+';')
+        temp2 = str(k) + ': ' + '; '.join(str(c) for c in v) +'\n'
+        our_str = our_str + temp2
+
     return our_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
